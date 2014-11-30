@@ -11,6 +11,7 @@ int main() {
 	printf("'text' lenght is %d\n", jcstrlen("text"));
 	printf("lenght of name array is %d\n", jcstrlen(name));
 	printf("lenght of name array which p points to is %d\n", jcstrlen(p));
+	printf("out of bounds:%c",*(p+10));
 	return 0;
 }
 
